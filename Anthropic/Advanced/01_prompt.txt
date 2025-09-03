@@ -1,0 +1,51 @@
+{
+  "task": "Create a Python Matplotlib animation suitable for a YouTube video or documentary.",
+  "requirements": {
+    "library": "matplotlib.animation",
+    "documentation_reference": "Read Matplotlib animation docs only if unsure (FuncAnimation, ArtistAnimation, FFMpegWriter).",
+    "design_priority": "Modern, smooth, entertaining visuals.",
+    "style": {
+      "theme": "dark",
+      "style_command": "plt.style.use('dark_background')",
+      "rcParams": "Use appropriate rcParams for consistency."
+    },
+    "layout": {
+      "centered": true,
+      "text": "Do not add any text unless explicitly instructed."
+    },
+    "psychology": {
+      "color_palette": "Electric magenta–cyan–blue cycling in HSV.",
+      "engagement": "Use vibrant colors, pacing, and readability to maintain attention."
+    },
+    "animation_details": {
+      "title": "Neon Vortex Pulse Hook",
+      "description": "A spiral of particles breathes and rotates; luminous shock rings pulse from the center.",
+      "techniques": [
+        "scatter phyllotaxis points",
+        "pulsing Circle patches",
+        "easing in/out"
+      ]
+    },
+    "output": {
+      "fps": 60,
+      "format": "MP4",
+      "writer": "FFMpegWriter(fps=60)",
+      "filename": "input.py",
+      "execution_command": "python input.py",
+      "auto_open": true
+    },
+    "notes": [
+      "Animation is part of a larger video—no intro/outro needed.",
+      "Focus on pacing and visual flow.",
+      "No fixed resolution required."
+    ]
+  }
+}
+
+✅ Features included:
+Dark background theme.
+Phyllotaxis spiral with sinusoidal breathing (expanding/contracting).
+Rotating spiral for dynamic flow.
+HSV color cycling (magenta–cyan–blue).
+Shockwave rings expanding and fading with easing.
+Smooth 60 FPS export via FFMpegWriter.
